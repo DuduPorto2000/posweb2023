@@ -1,0 +1,29 @@
+body{
+    background-color: black;
+}
+.titulo{
+    margin-left: 0px;
+}
+div{
+    margin-left: 50px;
+}
+h1{
+    text-align: center;
+    background-color: blue;
+    color: red;
+}
+
+h3{
+    text-align: center;
+    color: aqua;
+}
+
+h4,p,li,a{
+    color: aquamarine;
+}
+img{
+    max-width: 1250px;
+}
+.anime img{
+    max-height: 425px;
+}

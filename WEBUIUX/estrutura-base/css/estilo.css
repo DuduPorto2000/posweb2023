@@ -1,0 +1,23 @@
+body { 
+    margin: 0; 
+    padding: 0; 
+    background: red; 
+  } 
+
+  main {
+    background: pink;
+    width: 70%;
+    float: left; /
+  }
+  
+  aside {
+    background: green;
+    width: 30%;
+    float: left; 
+  }
+  
+  footer {
+    background: gray;
+    clear: both; 
+  }
+  

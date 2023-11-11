@@ -1,19 +1,24 @@
-main { 
-    background: pink; 
-    width: 70%; 
-    display: inline-block; 
-    vertical-align: top; 
+.page{
+
+}
+
+.page header{
+
+}
+
+.page .container{
+    display: flex;
+}
+
+.page .container main { 
+    background: pink;
   } 
   
-  aside { 
-    background: green; 
-    width: 30%; 
-    display: inline-block;  
-    margin-left: -4px; 
+.page .container aside { 
+    background: green;
   } 
   
-  footer { 
+  .page footer { 
     background: gray; 
-    min-height: 150px;
    }  
   

@@ -1,22 +1,19 @@
-body { 
-    margin: 0; 
-    padding: 0; 
+main { 
+    background: pink; 
+    width: 70%; 
+    display: inline-block; 
+    vertical-align: top; 
   } 
-
-  main {
-    background: pink;
-    width: 70%;
-    float: left;
-  }
   
-  aside {
-    background: green;
-    width: 30%;
-    float: left; 
-  }
+  aside { 
+    background: green; 
+    width: 30%; 
+    display: inline-block;  
+    margin-left: -4px; 
+  } 
   
-  footer {
-    background: gray;
-    clear: both; 
-  }
+  footer { 
+    background: gray; 
+    min-height: 150px;
+   }  
   

@@ -1,0 +1,231 @@
+body{
+    background-color: rgba(0, 23, 81, 1);
+}
+
+header, footer{
+    background-color: rgba(25, 10, 49, 1);
+}
+
+footer h1{
+    margin-bottom: 0;
+    color: rgba(25, 10, 49, 1);;
+}
+
+#navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#navbar a{
+    text-decoration: none;
+    color: rgba(147, 147, 147, 1);
+    text-align: center;
+}
+
+
+#navbar a:hover{
+    color: rgba(160, 125, 0, 1);
+}
+
+#principal{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* INDEX */
+
+.recentes h6{
+    color: rgba(160, 125, 0, 1);
+}
+
+#animes{
+    margin-top: 13px;
+}
+#animes #itens{
+    margin-top: 10px;
+    
+}
+
+#review{
+
+    margin-top: 13px;
+    margin-bottom: 5px;
+}
+
+#review #itens{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+#review #itens img{
+    border-radius: 5px 0px 0px 5px;
+}
+
+#review, #animes {
+    background-color: rgba(24, 79, 188, 0.49);
+    border-radius: 5px 5px 5px 5px;
+}
+
+#review #detalhe{
+    margin-left: auto;
+}
+
+#review #detalhe .nome{
+    text-decoration: none;
+    color: rgba(0, 23, 81, 1);
+}
+
+#review #detalhe .texto{
+    color: rgba(147, 147, 147, 1);
+    margin-left: 10px;
+}
+
+/*  FIM DO INDEX */
+
+/*  CONTATO */
+
+#principal label{
+    color: rgba(160, 125, 0, 1);
+}
+
+.EntreEmContato h4, #formulario h5{
+    color: rgba(160, 125, 0, 1);
+}
+
+#formulario h5{
+    text-align: justify;
+}
+#formulario{
+    background-color: rgba(24, 79, 188, 0.49);
+    border-radius: 5px 5px 5px 5px;
+    height: 800px;
+}
+
+.EntreEmContato{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#AssuntoEmail{
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+
+#EspaçoBotão{
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+#EspaçoBotão .col{
+    padding: 0;
+}
+
+#EspaçoBotão #botão{
+    --bs-btn-bg: rgba(147, 147, 147, 1);
+    --bs-btn-hover-bg: rgba(160, 125, 0, 1);
+}
+
+
+
+/*  FIM DO CONTATO */
+
+/*  RESPONSIVIDADE ADICIONAL */
+
+@media screen and (min-width:320px) {
+
+    #EspaçoDescrição{
+        height: 450px;
+    }
+}
+
+@media screen and (min-width:375px) {
+
+    #EspaçoDescrição{
+        height: 475px;
+    }
+    #EspaçoDescrição #Descrição{
+        height: 442px;
+    } 
+}
+
+@media screen and (min-width:395px) {
+
+    #EspaçoDescrição{
+        height: 500px;
+    }
+    #EspaçoDescrição #Descrição{
+        height: 470px;
+    } 
+}
+
+@media screen and (max-width: 410px) {
+    #navbar a h2{
+        font-size: medium;
+    }
+}
+
+@media screen and (min-width:526px){
+
+    #EspaçoDescrição{
+        height: 525px;
+    }
+    #EspaçoDescrição #Descrição{
+        height: 496px;
+    }
+}
+
+@media screen and (max-width:576px) {
+    main{
+        flex-direction: column;
+    }
+    
+    #review #itens img{
+        border-radius: 5px 0px 0px 0px;
+    }
+    
+}
+
+@media screen and (min-width:580px){
+    #EspaçoDescrição{
+        height: 525px;
+    }
+}
+@media screen and (min-width: 768px){
+    #animes{
+        height: 97.6%;
+    }
+    main{
+        flex-direction: row;
+    }
+
+    #EspaçoDescrição{
+        height: 525px;
+    }
+
+}
+
+@media screen and (min-width: 992px){
+    #animes{
+        height: 96.2%;
+    }
+
+    #EspaçoDescrição{
+        height: 550px;
+    }
+
+    #EspaçoDescrição #Descrição{
+        height: 520px;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    #animes{
+        height: 96%;
+    }
+
+    #review #detalhe{
+        margin-left: 0;
+    }
+}
